@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+.outercircle {
+    position: absolute;
+    width: 30rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.innercircle {
+    position: absolute;
+    width: 27rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: navajowhite;
+}
+
+
+.timertext {
+    background-color: white;
+    font-size: 4rem;
+    height: min-content;
+    z-index: 1;
+}
+
+.startbutton {
+    font-family: monospace;
+    background-color: white;
+    z-index: 1;
+    font-size: 1.8rem;
+    border-radius: 9px;
+    padding: 0rem 1rem 0rem 1rem;
+    user-select: none;
+}
